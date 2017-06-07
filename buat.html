@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Buat project</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div id="navi">
+      <nav class="navbar navigasi">
+        <div class="container">
+          <a href="index.html" class="logo"><span>HIT</span>PROJECT</a>
+          <ul id="menu-kiri">
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="cari.html"><span class="glyphicon glyphicon-search" id="search"></span>Find</a></li>
+          </ul>
+          <ul id="menu-kanan">
+            <li><a href="login.html">Masuk</a></li>
+            <li><a href="register.html">Daftar</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="create">
+      <h1><center>Buat Project</center></h1>
+      <form class="form-horizontal">
+          <div class="form-group">
+              <label class="control-label col-xs-3" for="judul">Judul</label>
+              <div class="col-xs-9">
+                  <input type="text" class="form-control" id="Nama" placeholder="Judul Project" required="">
+              </div>
+          </div>
+          <div class="form-inline">
+            <div class="form-group s">
+              <label class="l" for="exampleInputEmail2">Pilih Kategori</label>
+              <select class="form-control s" name="kategori" required="">
+                <option value="">Pilih..</option>
+                <option value="">seni</option>
+                <option value="">Teknologi</option>
+                <option value="">Kerajinan</option>
+                <option value="">Karya</option>
+                <option value="">Komik</option>
+                <option value="">Pakaian</option>
+                <option value="">Aksesoris</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+              <label class="control-label col-xs-3">Label</label>
+              <div class="col-xs-9">
+                  <input type="text" class="form-control" id="label" placeholder="Label.." required="">
+              </div>
+          </div>
+          <div class="form-group">
+              <label class="control-label col-xs-3">Deskripsi</label>
+              <div class="col-xs-9">
+                  <textarea class="form-control" rows="9" required="" placeholder="Deskripsikan Project anda.."></textarea>
+              </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputFile">File Gambar</label>
+            <input type="file" id="exampleInputFile" required="">
+            <p class="help-block">Max size 1mb</p>
+          </div>
+          <div class="form-group">
+              <div class="col-xs-offset-3 col-xs-9">
+                  <label class="checkbox-inline">
+                      <input type="checkbox" value="Setuju" required="">  Saya Setuju dengan <a href="#">Kebijakan dan Ketentuan</a> yang berlaku.
+                  </label>
+              </div>
+          </div>
+          <br>
+          <div class="form-group">
+              <div class="col-xs-offset-3 col-xs-9">
+                  <a href="project.html" type="submit" class="btn baton" role="button">Buat Project</a>
+                  <input type="reset" class="btn btn-default" value="Reset">
+              </div>
+          </div>
+      </form>
+    </div>
+
+  </body>
+</html>

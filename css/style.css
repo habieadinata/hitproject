@@ -1,0 +1,411 @@
+* {
+  font-family: Helvetica;
+}
+
+#banner {
+  width: 100%;
+  height: 620px;
+  background: ;
+  background: linear-gradient(rgba(91, 91, 91, 0.6),rgba(91, 91, 91, 0.6)) ,url(../asset/img/pexels-photo-26671.jpg) no-repeat center top ;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.navigasi {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #303030;
+}
+
+.logo {
+  float: left;
+  padding: 18px 30px;
+  text-decoration: none;
+  color: #23de68;
+}
+
+.logo span {
+  color: white;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: #23de68;
+}
+
+#menu-kiri {
+  list-style: none;
+  float: left;
+}
+
+#menu-kanan {
+  list-style: none;
+  float: right;
+}
+
+#menu-kiri li, #menu-kanan li {
+  display: inline-block;
+  margin-top: 18px;
+}
+
+#menu-kiri li a, #menu-kanan li a {
+  color: #dfdfdf;
+  text-decoration: none;
+  padding: 18px 30px;
+  transition: .3s ease;
+}
+
+#menu-kiri li a:hover, #menu-kanan li a:hover {
+  color: white;
+  background: #23de68;
+  border-radius: 5px;
+  transition: .3s ease;
+}
+
+#search {
+  font-size: 15px;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.kata {
+  color: #e7e7e7;
+  font-size: 20px;
+  padding-top: 150px;
+}
+
+.kata h1 {
+   color: white;
+   font-size: 60px;
+}
+
+.kata button {
+  background: none;
+  color: #23de68;
+  border: 3px solid #23de68;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+/* popular */
+#popular {
+ padding: 50px 0px;
+}
+
+#popular h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.pop {
+  width: 80px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.pop a {
+  text-decoration: none;
+  color: black;
+}
+
+.pop a:hover {
+  text-decoration: none;
+  color: rgb(65, 65, 65);
+
+}
+
+.pop .img {
+  width: auto;
+  border-radius: 5px 5px 0px 0px;
+  height: 200px;
+  background: url(../asset/img/pexels-photo-346297.jpeg) no-repeat center top;
+  background-size: cover;
+}
+
+.stat {
+  padding-top: 20px;
+
+  color: #23de68;
+  font-weight: bold;
+}
+
+.t {
+  float: left;
+  padding: 0px 18px;
+  text-align: center;
+
+}
+
+.stat .t:nth-child(2) {
+  border-left: 2px solid #4abd74;
+  border-right: 2px solid #4abd74;
+  padding-top: 10px;
+
+}
+
+.t:nth-child(3){
+  padding-top: 20px;
+}
+
+.t:nth-child(1){
+  padding-top: 20px;
+}
+
+.h {
+  font-size: 14px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+/* new */
+
+#new {
+  background-color: #ededed;
+  padding: 20px 0px;
+}
+
+#new .pop .img {
+  width: auto;
+  border-radius: 5px 5px 0px 0px;
+  height: 200px;
+  background: url(../asset/img/pexels-photo-26671.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+#new h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/* testimoni */
+
+#testimoni {
+  margin-top: 10px;
+  background-color: #23de68;
+  padding: 50px 0px;
+
+}
+
+#testimoni .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: url(../asset/img/pexels-photo-26671.jpg) ;
+  background-size: cover;
+  margin: auto;
+  margin-top: -10px;
+}
+
+#testimoni h3 {
+  text-align: center;
+}
+
+#testimoni p {
+  text-align: center;
+}
+
+footer {
+  margin-top: -20px;
+  background: #2f2f2f;
+  color: #cdcdcd;
+  height: 50px;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 16px;
+  font-size: 15px;
+
+}
+
+
+
+/* #############  cari.html #################*/
+
+#navi {
+  background-color: #4a4a4a;
+}
+
+.form {
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.l {
+  margin-left: 50px;
+}
+.baton {
+  background-color: #23de68;
+  margin-left: 40px;
+}
+
+.hasil {
+  padding: 50px 0px;
+}
+
+.hasil .pop .img:nth-child(1){
+  background: url(../asset/img/pexels-photo-26671.jpg);
+  background-size: cover;
+}
+
+
+/* ############# buat.html ############## */
+
+.create h1 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #23de68;
+  padding-bottom: 50px;
+}
+.create {
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  padding: 20px 50px;
+  background-color: white;
+}
+
+.s {
+  padding-bottom: 10px;
+}
+
+.s .l {
+  margin-right: 20px;
+}
+
+.create .buton {
+  background-color: #23de68;
+}
+
+.create .fg {
+  padding-left: 40px;
+}
+
+
+/* ################## explore ################### */
+.form-ex .baton {
+  background-color: #23de68;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+/* ######### selamat.html ######### */
+.selamat {
+  text-align: center;
+}
+
+.selamat h1 {
+  font-weight: bold;
+}
+
+.img-selamat {
+  width: 300px;
+  height: 300px;
+  background-image: url(../asset/img/pexels-photo-26671.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.selamat a {
+  text-decoration: none;
+  color: #23de68;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+
+/* ################# dashboard ################# */
+
+.dash a{
+  color: #23de68;
+}
+.menu-dash {
+  margin-top: -20px;
+  background-color: #393939;
+  width: auto;
+  height: 60px;
+}
+
+.isi-dash {
+  text-align: center;
+}
+
+.isi-dash h1{
+  text-align: left;
+  padding-bottom: 130px;
+  color: #23de68;
+  font-weight: lighter;
+}
+
+/* ########### wallet.html ############## */
+.isi-wall h1{
+  text-align: left;
+  padding-bottom: 80px;
+  color: #23de68;
+  font-weight: lighter;
+}
+
+.dom {
+  color: #c9c9c9;
+  font-size: 100px;
+}
+
+.isi-wall {
+  text-align: center;
+}
+
+/* ############### project.html ####################*/
+
+.img-pro {
+  width: auto;
+  height: 300px;
+  background: url(../asset/img/pexels-photo-346297.jpeg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.isi-pro {
+  padding: 10px;
+}
+
+.pro {
+  box-shadow: 0 0 10px #aaa;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.judul {
+  text-align: center;
+}
+
+.judul h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.judul p {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.pro a {
+  background: #23de68;
+  text-decoration: none;
+  padding: 20px 40px;
+  font-size: 24px;
+  border-radius: 5px;
+  color: #373737;
+  float:right;
+}
